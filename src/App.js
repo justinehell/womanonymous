@@ -19,7 +19,11 @@ function App() {
     <div className="App">
       {isLoggedIn ? (
         <>
-          <Burger handleHidden={handleHidden} isHidden={isHidden} />
+          <Burger
+            handleHidden={handleHidden}
+            isHidden={isHidden}
+            setIsLoggedIn={setIsLoggedIn}
+          />
           <div
             id="overlay"
             className={isHidden ? "overlay" : ""}

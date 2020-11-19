@@ -3,6 +3,7 @@ import { Doughnut } from "react-chartjs-2";
 import BoutonRegle from "./BoutonRegle";
 import InnerCycle from "./InnerCycle";
 
+
 const Cycle = () => {
   const data = {
     labels: [
