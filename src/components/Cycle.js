@@ -112,7 +112,7 @@ const Cycle = () => {
 
   return (
     <div className="main-cycle">
-      <FaFlagCheckered fontSize={"3em".toString()} className="flag" />
+      <GiCheckeredFlag fontSize={"3em".toString()} className="flag" />
 
       <Doughnut
         width={100}
