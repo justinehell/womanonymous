@@ -10,6 +10,27 @@
     
 }
 .main-cycle {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flag {
+  transform: scaleX(-1);
+  padding-right: 21px;
+  margin-bottom: -7px;
+}
+.hand {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 39%;
+    width: 10px;
+    height: 50vh;
+    background: blue;
+    
+}
+.main-cycle {
     text-align: center;
     position: relative;
 }
