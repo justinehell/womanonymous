@@ -1,3 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Rochester&family=Rokkitt&display=swap");
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body {
+  font-family: "Rokkit";
+}
+
+h1 {
+  font-size: 2.5em;
+  font-family: "Rochester";
+  text-align: center;
+  margin-bottom: 5px;
+}
+
 .main-cycle {
   text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flag {
+  transform: scaleX(-1);
+  padding-right: 21px;
+  margin-bottom: -7px;
+}
+/* general */ 
+li {
+    list-style: none;
+    margin: 30px;
+}
+a {
+    text-decoration: none;
+}
+/* header*/
+
+.header-layout{
+    background-color: black;
+}
+
+/* burger */
+#burger {
+    width: 100vW;
+    height: 35px;
+    padding: 10px 0 0 10px;
+    align-self: center;
+    z-index: 1;
+  }
+#burger div {
+    width: 30px;
+    height: 3px;
+    margin: 0 0 5px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-background-clip: padding-box;
+    background: #8b8d8c;
+  }
+
+  #menu {
+      position: absolute;
+      z-index: 1;
+      top:0;
+      width: 100vw;
+      height: 300px;
+      background-color: white;
+      box-shadow: 0 2px 20px gray;
+  }
+
+  .menu-list{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: black;
+      padding: 0;
+  }
+   
+  .menu-list li a{
+    font-size: 20px;
+    color: black;
+}
+
+/* body */
+
+  #overlay {
+    width:100vw;
+    height: 100%;
+}
+
+.background-baroque {
+    width:100vw;
+}
+
+  /* optional class */
+  .hidden {
+      display:none;
+  }
+
+  .overlay {
+      background-color: #8b8d8c;
+      opacity: 0.5;
+  }
+
+.login-container {
+  /*background-image: url("./Fond_ecran.png");*/
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-container h1 {
+  margin-bottom: 100px;
+}
+
+form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  box-shadow: 5px 5px 10px lightgrey;
+  border-radius: 10px;
+}
+
+form input:last-child {
+  border-radius: 10px;
+  border: none;
+  background: grey;
+  color: white;
+  width: 100px;
+}
+
+.footer {
+  text-align: center;
+  padding: 1%;
+  background: #000000;
+  color: #ffffff;
 }
