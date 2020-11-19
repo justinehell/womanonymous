@@ -1,6 +1,8 @@
-import React from 'react';
-import { Doughnut } from 'react-chartjs-2';
-import { FaFlagCheckered } from 'react-icons/fa';
+
+import React from "react";
+import { Doughnut } from "react-chartjs-2";
+import { GiCheckeredFlag } from "react-icons/gi";
+
 
 const Cycle = () => {
 	const data = {
