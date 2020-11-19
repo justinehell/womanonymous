@@ -8,7 +8,7 @@ const data = [
     {
         "title":"Temperature regulation",
         "content":"Core body temperature changes across the ovulatory menstrual cycle, such that it is 0.3°C to 0.7°C higher in the post-ovulatory luteal phase when progesterone is high compared with the pre-ovulatory follicular phase. This temperature difference, which is most evident during sleep or immediately upon waking before any activity, is used by women as a retrospective indicator of an ovulatory cycle. Here, we review both historical and current literature aimed at characterizing changes in core body temperature across the menstrual cycle, considering the assessment of the circadian rhythm of core body temperature and thermoregulatory responses to challenges, including heat and cold exposure, exercise, and fever. We discuss potential mechanisms for the thermogenic effect of progesterone and the temperature-lowering effect of estrogen, and discuss effects on body temperature of exogenous formulations of these hormones as contained in oral contraceptives. We review new wearable temperature sensors aimed at tracking daily temperature changes of women across multiple menstrual cycles and highlight the need for future research on the validity and reliability of these devices. Despite the change in core body temperature across the menstrual cycle being so well identified, there remain gaps in our current understanding, particularly about the underlying mechanisms and microcircuitry involved in the temperature changes.",
-        "category":"tips"
+        "category":"advices"
     },
     {
         "title":"Different types of period pain ",
@@ -21,7 +21,7 @@ const data = [
         "category":"pain"
     },
     {
-        "title":"HOW PERIOD MIGRAINES ARE TRADITIONALLY TREATED",
+        "title":"How periode migraines are traditionally treated",
         "content":"It would have been great if my doctor had told me that each woman’s body is different and that the levels of estrogen within birth control pills vary. So while a woman like me might find that being on the Pill made my menstrual migraines worse, another woman might find that they helped her migraines diminish. The lesson: listen to and know your own body and what works for you. A visit to a traditional western doctor about your menstrual migraines may result in one of these three approaches: An immediate dosage of triptan (a medication used to treat migraines) in combination with an anti-inflammatory like ibuprofen; or you can inject triptan with a needle or a needle-free syringe (which works faster than swallowing a pill but sounds horrifying); or you can use a nasal inhaler. This option, although less terrifying than injection and faster than a pill, is still not fast enough if you are nauseated and vomiting as a result of your migraine. A preventative approach of taking nonsteroidal anti-inflammatory drugs (NSAIDs), triptans, hormones, or magnesium a week before and after your period. Or a long-term treatment in which you are treated with hormones via the Pill or vaginal ring. Not a fan of prescription meds, injections, or any of the remedies mentioned and seeing that over-the-counter painkillers did nothing for the pain I was in,  I wondered about natural alternatives for bringing my hormones back into balance and, hopefully, getting rid of my migraines. After reading up on herbal remedies, I came across two herbs that were said to be particularly beneficial for women: Black Cohosh and Angelica. WHY BLACK COHOSH IS A GREAT NATURAL REMEDY FOR YOUR MENSTRUAL MIGRAINES Black cohosh has an ancient history of use among Native American women for menstruation and menopausal health issues. Western research has yet to conclude if black cohosh is effective in the use of treating symptoms of menopause such as hot flashes and vaginal dryness. But there is evidence that black cohosh is effective in treating issues related to Premenstrual Syndrome (PMS). It is the root of Black Cohosh that is used medicinally and it has been reported to regulate estrogen. At times, estrogen can overstimulate the tissue of the uterus, leading to pain and swelling. Black Cohosh counteracts this overstimulation by acting as an anti-inflammatory and an antispasmodic reducing pain, swelling, and cramping. Because of its ability to even out estrogen levels, it can mitigate the drop in estrogen that triggers period migraines. "
     },
     {
@@ -60,10 +60,10 @@ const BlogListPage= ()=>{
         <div>
             <div id="blog-list">
                 <ul>
-                    <li className="circle" id="pain" onClick={(e)=>handleOnClick(e)}><span>Pain</span></li>
-                    <li className="circle" id="info" onClick={(e)=>handleOnClick(e)}><span>Info</span></li>
-                    <li className="circle" id="tips" onClick={(e)=>handleOnClick(e)}><span>Tips</span></li>
-                    <li className="circle" id="title" onClick={(e)=>handleOnClick(e)}><span>Title</span></li>
+                    <li className="circle" id="pain" onClick={(e)=>handleOnClick(e)}>Pain</li>
+                    <li className="circle" id="info" onClick={(e)=>handleOnClick(e)}>Info</li>
+                    <li className="circle" id="advices" onClick={(e)=>handleOnClick(e)}>Advices</li>
+                    <li className="circle" id="title" onClick={(e)=>handleOnClick(e)}>Title</li>
                 </ul>
             </div>
             {data.filter((article)=>(selectedTheme === article.category)).map(article => <FilteredBlog articles={article}/>)}
