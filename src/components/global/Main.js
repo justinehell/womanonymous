@@ -1,10 +1,10 @@
 import React from "react";
-
+import Cycle from "../Cycle";
 
 function Main() {
   return (
     <div className="Main">
-        <p>main</p>
+      <Cycle />
     </div>
   );
 }

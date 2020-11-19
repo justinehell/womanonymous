@@ -71,4 +71,10 @@ form input:last-child {
   background: grey;
   color: white;
   width: 100px;
+
+.footer {
+  text-align: center;
+  padding: 1%;
+  background: #000000;
+  color: #ffffff;
 }
