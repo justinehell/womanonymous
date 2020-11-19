@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <h1>This is the App</h1>
       <Cycle />
-      <InnerCycle dayOfCycle="8"/>
+      <InnerCycle dayOfCycle="15"/>
     </div>
   );
 }
