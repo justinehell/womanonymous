@@ -1,3 +1,15 @@
+
+.hand {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 39%;
+    width: 1%;
+    height: 25%;
+    background: linear-gradient( black ,lightgray );
+    transform-origin: bottom;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Rochester&family=Rokkitt&display=swap');
 
 body {
@@ -23,8 +35,8 @@ h1 {
 	font-family: 'Rochester';
 	text-align: center;
 	margin-bottom: 5px;
-}
 
+}
 .main-cycle {
 	text-align: center;
 	width: 80%;
@@ -87,6 +99,7 @@ a {
   color: black;
   padding: 0;
 }
+
 
 .menu-list li a {
   font-size: 20px;
@@ -166,4 +179,5 @@ form input:last-child {
   background: #000000;
   color: #ffffff;
 }
+
 
