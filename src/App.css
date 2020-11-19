@@ -1,3 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Rochester&family=Rokkitt&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body {
+  font-family: "Rokkit";
+}
+
+h1 {
+  font-size: 2.5em;
+  font-family: "Rochester";
+  text-align: center;
+  margin-bottom: 5px;
+}
+
 .main-cycle {
   text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flag {
+  transform: scaleX(-1);
+  padding-right: 21px;
+  margin-bottom: -7px;
 }
