@@ -6,11 +6,9 @@ import Cycle from "./components/Cycle";
 function App() {
   return (
     <div className="App">
-
       <h1>Baby Stop</h1>
 
-      <Layout/>
-      <Cycle />
+      <Layout />
     </div>
   );
 }
