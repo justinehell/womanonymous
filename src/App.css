@@ -75,6 +75,9 @@ a {
 .display-header{
     display: flex;
     justify-content: flex-start;
+    align-items: center;
+    height: 80px;
+    background-color: black;
 }
 
 .display-header h1 {
@@ -116,7 +119,6 @@ a {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      color: black;
       padding: 0;
   }
    
@@ -125,10 +127,6 @@ a {
     color: white;
 }
 
-.menu-list li a {
-  font-size: 20px;
-  color: black;
-}
 
 /* body */
 

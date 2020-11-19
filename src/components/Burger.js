@@ -22,8 +22,8 @@ function Burger(props) {
       </div>
       <div id="menu" className={props.isHidden ? "" : "hidden"}>
         <ul className="menu-list">
-          {/* <li onClick={props.isHidden ? props.handleHidden : ''}><Link to="/" title="cycle">Home</Link></li>
-          <li onClick={props.isHidden ? props.handleHidden : ''}><Link to="/blog" title="infos">Blog</Link></li> */}
+          <li onClick={props.isHidden ? props.handleHidden : ''}><Link to="/" title="cycle">Home</Link></li>
+          <li onClick={props.isHidden ? props.handleHidden : ''}><Link to="/blog" title="infos">Blog</Link></li>
           <li onClick={handleLogOut}>
             <a href="#" title="log">
               Log Out
