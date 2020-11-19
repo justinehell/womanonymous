@@ -4,7 +4,7 @@ import Footer from "./components/global/Footer";
 
 function Layout() {
   return (
-    <div className="App">
+    <div>
       <Main />
       <Footer />
     </div>
