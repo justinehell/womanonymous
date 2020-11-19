@@ -31,8 +31,8 @@ function App() {
           </div>
         </>
       ) : (
-        <Login setIsLoggedIn={setIsLoggedIn} />
-      )}
+          <Login setIsLoggedIn={setIsLoggedIn} />
+        )}
     </div>
   );
 }
