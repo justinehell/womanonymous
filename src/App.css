@@ -35,6 +35,12 @@ h1 {
   text-align: center;
   margin-bottom: 5px;
 }
+
+main.Main,
+.login-container {
+  background-image: url(https://cdn.hipwallpaper.com/i/36/71/py05XD.jpg);
+  background-size: cover;
+}
 /* Cycle */
 .main-cycle {
   text-align: center;
@@ -66,46 +72,61 @@ a {
 }
 
 /* burger */
+.display-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+}
+
+.display-header h1 {
+    color: white;
+    text-align:center;
+    width: 70vw;
+}
+
 #burger {
-  width: 100vw;
-  height: 35px;
-  padding: 10px 0 0 10px;
-  align-self: center;
-  z-index: 1;
-}
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+    padding: 10px 0 0 10px;
+    align-self: center;
+    z-index: 1;
+  }
 #burger div {
-  width: 30px;
-  height: 3px;
-  margin: 0 0 5px;
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
-  -webkit-background-clip: padding-box;
-  background: #8b8d8c;
+    width: 50px;
+    height: 5px;
+    margin: 0 0 5px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-background-clip: padding-box;
+    background: white;
+  }
+
+  #menu {
+      position: absolute;
+      z-index: 1;
+      background-color: black;
+      top:0;
+      width: 100vw;
+      height: 300px;
+      box-shadow: 0 2px 20px gray;
+  }
+
+  .menu-list{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+  }
+   
+  .menu-list li a{
+    font-size: 24px;
+    color: white;
 }
 
-#menu {
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  width: 100vw;
-  height: 300px;
-  background-color: white;
-  box-shadow: 0 2px 20px gray;
-}
-
-.menu-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: black;
-  padding: 0;
-}
-
-.menu-list li a {
-  font-size: 20px;
-  color: black;
-}
 
 /* body */
 
@@ -131,14 +152,16 @@ a {
 /* LOGIN */
 .login-container {
   display: flex;
-  height: 90vh;
+  height: 100vh;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
 
 .login-container h1 {
-  margin-bottom: 100px;
+  margin-bottom: 60px;
+  color: #ffffff;
+  font-size: 4.5em;
 }
 
 form {
@@ -152,8 +175,9 @@ form input {
   margin: 10px;
   padding: 10px;
   border: none;
-  box-shadow: 5px 5px 10px lightgrey;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
+  width: 250px;
 }
 
 form input:last-child {
@@ -162,6 +186,7 @@ form input:last-child {
   background: grey;
   color: white;
   width: 100px;
+  margin-top: 30px;
 }
 
 .login-top {
@@ -174,9 +199,16 @@ form input:last-child {
   position: absolute;
 }
 
-.footer {
+.footer{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.footer-text {
   text-align: center;
   padding: 1%;
   background: #000000;
   color: #ffffff;
+  font-size: 24px;
 }

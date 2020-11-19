@@ -4,8 +4,6 @@ import Layout from "./Layout";
 
 import Login from "./components/Login";
 import Burger from "./components/Burger.js";
-import baroque from "./img/baroque.png";
-import baroquefooter from "./img/baroquefooter.png";
 
 function App() {
   const [isHidden, setIsHidden] = useState(false);
@@ -29,18 +27,12 @@ function App() {
             className={isHidden ? "overlay" : ""}
             onClick={isHidden ? handleHidden : ""}
           >
-            <img src={baroque} className="background-baroque" alt="blmabla" />
             <Layout />
-            <img
-              src={baroquefooter}
-              className="background-baroque"
-              alt="blabla"
-            />
           </div>
         </>
       ) : (
-        <Login setIsLoggedIn={setIsLoggedIn} />
-      )}
+          <Login setIsLoggedIn={setIsLoggedIn} />
+        )}
     </div>
   );
 }

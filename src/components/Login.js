@@ -24,7 +24,6 @@ export default function Login({ setIsLoggedIn }) {
 
   return (
     <div className="login-container">
-      <img src={baroque} className="background-baroque login-top" alt="logo" />
       <h1>Baby Stop</h1>
       <form onSubmit={handleSubmit}>
         <input
@@ -47,11 +46,6 @@ export default function Login({ setIsLoggedIn }) {
         />
         <input type="submit" value="Enter" />
       </form>
-      <img
-        src={baroquefooter}
-        className="background-baroque login-bottom"
-        alt="blablz"
-      />
     </div>
   );
 }
