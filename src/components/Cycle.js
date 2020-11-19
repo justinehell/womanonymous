@@ -112,7 +112,7 @@ const Cycle = () => {
 
   return (
     <div className="main-cycle">
-      <InnerCycle />
+      <InnerCycle dayOfCycle="8"/>
       <div className="wrapper-cycle">
         <Doughnut
           width={100}

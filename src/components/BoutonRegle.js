@@ -40,7 +40,4 @@ const BoutonRegle = () => {
 };
 export default BoutonRegle;
 
-/*<div className='boutonregle'>
-			<GiBigWave alt='vague' />
-			<h2>La Marée Rouge</h2>
-		</div>*/
+
