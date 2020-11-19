@@ -1,10 +1,13 @@
 import React from "react";
-
+import { FaMask } from "react-icons/fa";
 
 function Footer() {
   return (
     <div className="footer">
-      <p> footer</p>
+      <p>
+        <FaMask /> The Womanonymous to serve you{" "}
+      </p>
+      Because you deserve it
     </div>
   );
 }
