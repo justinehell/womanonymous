@@ -13,7 +13,6 @@ function App() {
         <>
           <h1>Baby Stop</h1>
           <Layout />
-          <Cycle />
         </>
       ) : (
         <Login setIsLoggedIn={setIsLoggedIn} />
