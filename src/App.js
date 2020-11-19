@@ -1,10 +1,12 @@
+import React from "react";
 import "./App.css";
+import Layout from "./Layout";
 import Cycle from "./components/Cycle";
 
 function App() {
   return (
     <div className="App">
-      <h1>This is the App</h1>
+      <Layout/>
       <Cycle />
     </div>
   );
