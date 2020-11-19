@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Layout from "./Layout";
 import Cycle from "./components/Cycle";
+import BoutonRegle from './components/BoutonRegle';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
 
       <Layout/>
       <Cycle />
+      <BoutonRegle />
     </div>
   );
 }
