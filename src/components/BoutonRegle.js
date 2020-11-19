@@ -2,10 +2,10 @@ import React from 'react';
 import './boutonregle.css';
 import { GiBigWave } from 'react-icons/gi';
 
-const BoutonRegle = () => {
+const BoutonRegle = (props) => {
 	return (
 		<div class='buttons'>
-			<button class='blob-btn'>
+			<button class='blob-btn' onClick={props.clic}>
 				<GiBigWave alt='vague' />
 				{'  '}La Marée Rouge {'  '}
 				<GiBigWave alt='vague' />
