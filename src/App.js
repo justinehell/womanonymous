@@ -25,13 +25,7 @@ function App() {
             className={isHidden ? "overlay" : ""}
             onClick={isHidden ? handleHidden : ""}
           >
-            <img src={baroque} className="background-baroque" alt="blmabla" />
             <Layout />
-            <img
-              src={baroquefooter}
-              className="background-baroque"
-              alt="blabla"
-            />
           </div>
         </>
       ) : (
