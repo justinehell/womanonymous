@@ -1,5 +1,5 @@
 import React from 'react';
-import "./boutonregle.css"
+import './boutonregle.css';
 import { GiBigWave } from 'react-icons/gi';
 
 const BoutonRegle = () => {
@@ -7,7 +7,8 @@ const BoutonRegle = () => {
 		<div class='buttons'>
 			<button class='blob-btn'>
 				<GiBigWave alt='vague' />
-				La Marée Rouge
+				{'  '}La Marée Rouge {'  '}
+				<GiBigWave alt='vague' />
 				<span class='blob-btn__inner'>
 					<span class='blob-btn__blobs'>
 						<span class='blob-btn__blob'></span>
@@ -39,5 +40,3 @@ const BoutonRegle = () => {
 	);
 };
 export default BoutonRegle;
-
-
