@@ -1,4 +1,5 @@
 import React from "react";
+import "./blogList.css";
 
 export default function FilteredBlog (props) {
     const title= props.articles.title;
