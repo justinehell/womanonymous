@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Layout from "./Layout";
 import Cycle from "./components/Cycle";
+import InnerCycle from "./components/InnerCycle"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
 
       <Layout/>
       <Cycle />
+      <InnerCycle dayOfCycle="8"/>
     </div>
   );
 }
