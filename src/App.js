@@ -12,7 +12,7 @@ function App() {
 
       <Layout/>
       <Cycle />
-      <InnerCycle dayOfCycle="8"/>
+      <InnerCycle dayOfCycle="15"/>
     </div>
   );
 }
