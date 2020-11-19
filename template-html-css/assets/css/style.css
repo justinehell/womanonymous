@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+div.wrapper {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+@media screen and (max-width: 1080px) {
+  div.wrapper {
+    max-width: 100%;
+  }
+}
+
+/* HEADER */
+
+header {
+}
+header h1 {
+}
+header h1 a {
+}
+header h1 a img {
+}
+header h1 a span {
+}
+header nav {
+}
+header nav > ul li {
+}
+header nav > ul li:first-child {
+}
+header nav > ul li a {
+}
+header nav > ul li a:hover {
+}
+
+/* MAIN */
+main {
+}
+
+/* ASIDE */
+aside#filters {
+}
+aside#filters h3 {
+}
+aside#filters ul {
+}
+aside#filters ul li {
+}
+aside#filters ul li a {
+}
+
+/* SECTION */
+section#products-list {
+}
+section#products-list article {
+}
+section#products-list article img {
+}
+section#products-list article div.product-center {
+}
+section#products-list article div.product-center p:first-child {
+}
+section#products-list article div.product-right {
+}
+section#products-list article div.product-right span {
+}
+section#products-list article div.product-right button {
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+  .nav-mobile-overlay {
+  }
+
+  .nav-mobile-overlay.show {
+  }
+  #overlay-menu {
+  }
+
+  header nav {
+  }
+
+  header nav.open {
+  }
+
+  header nav > ul {
+  }
+
+  header nav > ul li {
+  }
+
+  header nav > ul li:first-child {
+  }
+
+  header nav > ul li:first-child strong {
+  }
+
+  header nav > ul li a {
+  }
+
+  header #hamburger {
+  }
+
+  header #hamburger span {
+  }
+
+  aside#filters {
+  }
+
+  aside#filters h3 {
+  }
+
+  aside#filters ul {
+  }
+
+  aside#filters ul.open {
+  }
+
+  aside#filters ul li {
+  }
+
+  aside#filters ul li a {
+  }
+
+  section#products-list {
+  }
+
+  section#products-list article {
+  }
+
+  section#products-list article:last-child {
+  }
+
+  section#products-list article img {
+  }
+
+  section#products-list article div.content {
+  }
+
+  section#products-list article div.content p {
+  }
+
+  section#products-list article div.content p:first-child {
+  }
+
+  section#products-list article div.content-right {
+  }
+
+  section#products-list article div.content-right .price {
+  }
+
+  section#products-list article div.content-right button {
+  }
+}

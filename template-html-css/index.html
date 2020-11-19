@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="HTML Template" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="John Doe" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/css/reset.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="nav-mobile-overlay" id="overlay-menu"></div>
+    <div class="nav-mobile-overlay" id="overlay-filters"></div>
+    <header>
+      <div class="wrapper">
+        <h1>
+          <a href="#" title="Mon site">
+            <img
+              src="assets/images/logo-react.svg"
+              alt="Logo mon site"
+              width="50"
+              height="50"
+            />
+            <span>Le titre de mon site</span>
+          </a>
+        </h1>
+        <nav>
+          <ul>
+            <li><strong>Menu</strong></li>
+            <li><a href="#" title="Accueil">Accueil</a></li>
+            <li><a href="#" title="A propos">A propos</a></li>
+            <li><a href="#" title="Menu">Menu</a></li>
+            <li><a href="#" title="Contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div id="hamburger"><span></span> <span></span> <span></span></div>
+      </div>
+    </header>
+    <main>
+      <div class="wrapper">
+        <aside id="filters">
+          <h3>Filters</h3>
+          <ul></ul>
+        </aside>
+        <section id="products-list">
+          <!-- Example content -->
+          <article>
+            <img src="assets/images/cat.jpg" width="80" height="80" alt="" />
+            <div class="product-center">
+              <p>Belair Monange (2018)</p>
+              <p>Saint Emilion</p>
+            </div>
+            <div class="product-right">
+              <span class="price">22 € 00</span>
+              <button>Add to cart</button>
+            </div>
+          </article>
+          <!-- Example content -->
+          <article></article>
+          <article></article>
+          <article></article>
+          <article></article>
+        </section>
+      </div>
+    </main>
+
+    <script src="assets/js/lib.js"></script>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
