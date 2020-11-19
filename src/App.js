@@ -7,7 +7,6 @@ import Burger from "./components/Burger.js";
 import baroque from "./img/baroque.png";
 import baroquefooter from "./img/baroquefooter.png";
 
-
 function App() {
   const [isHidden, setIsHidden] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -16,13 +15,15 @@ function App() {
     setIsHidden(!isHidden);
   }
 
-
-
   return (
     <div className="App">
       {isLoggedIn ? (
         <>
-          <Burger handleHidden={handleHidden} isHidden={isHidden} />
+          <Burger
+            handleHidden={handleHidden}
+            isHidden={isHidden}
+            setIsLoggedIn={setIsLoggedIn}
+          />
           <div
             id="overlay"
             className={isHidden ? "overlay" : ""}
