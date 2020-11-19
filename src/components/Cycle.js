@@ -5,6 +5,7 @@ import InnerCycle from "./InnerCycle";
 
 
 const Cycle = () => {
+	const dayOfCycle = 4;
   const data = {
     labels: [
       "Don't fuck me now",
@@ -112,7 +113,7 @@ const Cycle = () => {
 
   return (
     <div className="main-cycle">
-      <InnerCycle />
+      <InnerCycle dayOfCycle={dayOfCycle}/>
       <div className="wrapper-cycle">
         <Doughnut
           width={100}

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 
 const InnerCycle = (props) => {
-    const [day, setDay] = useState(props.dayOfCycle);
-    
+	const [day, setDay] = useState(props.dayOfCycle);
+
 	useEffect(() => {
 		setDay(props.dayOfCycle);
 	}, [props]);
