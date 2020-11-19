@@ -30,7 +30,6 @@ function App() {
             onClick={isHidden ? handleHidden : ""}
           >
             <img src={baroque} className="background-baroque" alt="blmabla" />
-            <h1>Baby Stop</h1>
             <Layout />
             <img
               src={baroquefooter}
