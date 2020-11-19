@@ -11,7 +11,7 @@ const InnerCycle = (props) => {
 		<div class='clock'>
 			<div
 				class='hand'
-				style={{ transform: `rotate(${day * (360 / 28)}deg)` }}></div>
+				style={{ transform: `rotate(${day * (360 / 30)}deg)` }}></div>
 		</div>
 	);
 };
