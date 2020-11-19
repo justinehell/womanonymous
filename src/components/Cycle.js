@@ -1,6 +1,6 @@
 import React from "react";
 import { Doughnut } from "react-chartjs-2";
-import { FaFlagCheckered } from "react-icons/fa";
+import { GiCheckeredFlag } from "react-icons/gi";
 
 const Cycle = () => {
   const data = {
@@ -110,8 +110,10 @@ const Cycle = () => {
 
   return (
     <div className="main-cycle">
-      <FaFlagCheckered fontSize={"3em".toString()} />
+      <GiCheckeredFlag fontSize={"3em".toString()} className="flag" />
+
       <Doughnut
+        width={100}
         data={data}
         options={{
           responsive: true,
@@ -119,6 +121,17 @@ const Cycle = () => {
           animateRotate: true,
           legend: {
             display: false,
+          },
+          layout: {
+            padding: {
+              left: 0,
+              right: 0,
+              top: 0,
+              bottom: 0,
+            },
+            margin: {
+              left: 0,
+            },
           },
         }}
       />
