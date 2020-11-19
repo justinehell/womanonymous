@@ -37,6 +37,41 @@ h1 {
   margin-bottom: -7px;
 }
 
+.login-container {
+  /*background-image: url("./Fond_ecran.png");*/
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-container h1 {
+  margin-bottom: 100px;
+}
+
+form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  box-shadow: 5px 5px 10px lightgrey;
+  border-radius: 10px;
+}
+
+form input:last-child {
+  border-radius: 10px;
+  border: none;
+  background: grey;
+  color: white;
+  width: 100px;
+
 .footer {
   text-align: center;
   padding: 1%;
