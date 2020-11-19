@@ -5,6 +5,11 @@ import InnerCycle from './InnerCycle';
 
 const Cycle = () => {
 	const [dayOfCycle, setDay] = useState(4);
+
+	function changeDay() {
+		 setDay(0);
+	  }
+	
 	const data = {
 		labels: [
 			"Don't fuck me now",
@@ -138,7 +143,7 @@ const Cycle = () => {
 					}}
 				/>
 			</div>
-			<BoutonRegle clic={setDay(0)}/>
+			<BoutonRegle value={dayOfCycle} onChange={changeDay} />
 		</div>
 	);
 };
