@@ -1,7 +1,6 @@
-
-import React from "react";
-import { Doughnut } from "react-chartjs-2";
-import { GiCheckeredFlag } from "react-icons/gi";
+import React from 'react';
+import { Doughnut } from 'react-chartjs-2';
+import { FaFlagCheckered } from 'react-icons/fa';
 
 
 const Cycle = () => {
@@ -112,7 +111,7 @@ const Cycle = () => {
 
   return (
     <div className="main-cycle">
-      <GiCheckeredFlag fontSize={"3em".toString()} className="flag" />
+      <FaFlagCheckered fontSize={"3em".toString()} className="flag" />
 
       <Doughnut
         width={100}
