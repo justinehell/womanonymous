@@ -22,7 +22,8 @@ const data = [
     },
     {
         "title":"How periode migraines are traditionally treated",
-        "content":"It would have been great if my doctor had told me that each woman’s body is different and that the levels of estrogen within birth control pills vary. So while a woman like me might find that being on the Pill made my menstrual migraines worse, another woman might find that they helped her migraines diminish. The lesson: listen to and know your own body and what works for you. A visit to a traditional western doctor about your menstrual migraines may result in one of these three approaches: An immediate dosage of triptan (a medication used to treat migraines) in combination with an anti-inflammatory like ibuprofen; or you can inject triptan with a needle or a needle-free syringe (which works faster than swallowing a pill but sounds horrifying); or you can use a nasal inhaler. This option, although less terrifying than injection and faster than a pill, is still not fast enough if you are nauseated and vomiting as a result of your migraine. A preventative approach of taking nonsteroidal anti-inflammatory drugs (NSAIDs), triptans, hormones, or magnesium a week before and after your period. Or a long-term treatment in which you are treated with hormones via the Pill or vaginal ring. Not a fan of prescription meds, injections, or any of the remedies mentioned and seeing that over-the-counter painkillers did nothing for the pain I was in,  I wondered about natural alternatives for bringing my hormones back into balance and, hopefully, getting rid of my migraines. After reading up on herbal remedies, I came across two herbs that were said to be particularly beneficial for women: Black Cohosh and Angelica. WHY BLACK COHOSH IS A GREAT NATURAL REMEDY FOR YOUR MENSTRUAL MIGRAINES Black cohosh has an ancient history of use among Native American women for menstruation and menopausal health issues. Western research has yet to conclude if black cohosh is effective in the use of treating symptoms of menopause such as hot flashes and vaginal dryness. But there is evidence that black cohosh is effective in treating issues related to Premenstrual Syndrome (PMS). It is the root of Black Cohosh that is used medicinally and it has been reported to regulate estrogen. At times, estrogen can overstimulate the tissue of the uterus, leading to pain and swelling. Black Cohosh counteracts this overstimulation by acting as an anti-inflammatory and an antispasmodic reducing pain, swelling, and cramping. Because of its ability to even out estrogen levels, it can mitigate the drop in estrogen that triggers period migraines. "
+        "content":"It would have been great if my doctor had told me that each woman’s body is different and that the levels of estrogen within birth control pills vary. So while a woman like me might find that being on the Pill made my menstrual migraines worse, another woman might find that they helped her migraines diminish. The lesson: listen to and know your own body and what works for you. A visit to a traditional western doctor about your menstrual migraines may result in one of these three approaches: An immediate dosage of triptan (a medication used to treat migraines) in combination with an anti-inflammatory like ibuprofen; or you can inject triptan with a needle or a needle-free syringe (which works faster than swallowing a pill but sounds horrifying); or you can use a nasal inhaler. This option, although less terrifying than injection and faster than a pill, is still not fast enough if you are nauseated and vomiting as a result of your migraine. A preventative approach of taking nonsteroidal anti-inflammatory drugs (NSAIDs), triptans, hormones, or magnesium a week before and after your period. Or a long-term treatment in which you are treated with hormones via the Pill or vaginal ring. Not a fan of prescription meds, injections, or any of the remedies mentioned and seeing that over-the-counter painkillers did nothing for the pain I was in,  I wondered about natural alternatives for bringing my hormones back into balance and, hopefully, getting rid of my migraines. After reading up on herbal remedies, I came across two herbs that were said to be particularly beneficial for women: Black Cohosh and Angelica. WHY BLACK COHOSH IS A GREAT NATURAL REMEDY FOR YOUR MENSTRUAL MIGRAINES Black cohosh has an ancient history of use among Native American women for menstruation and menopausal health issues. Western research has yet to conclude if black cohosh is effective in the use of treating symptoms of menopause such as hot flashes and vaginal dryness. But there is evidence that black cohosh is effective in treating issues related to Premenstrual Syndrome (PMS). It is the root of Black Cohosh that is used medicinally and it has been reported to regulate estrogen. At times, estrogen can overstimulate the tissue of the uterus, leading to pain and swelling. Black Cohosh counteracts this overstimulation by acting as an anti-inflammatory and an antispasmodic reducing pain, swelling, and cramping. Because of its ability to even out estrogen levels, it can mitigate the drop in estrogen that triggers period migraines. ",
+        "category":"pain"
     },
     {
         "title" :" What happens during the menstrual cycle?",
@@ -38,7 +39,39 @@ const data = [
         "title ": "When are you most fertile?",
         "content": "Theoretically, there's only a short time when women can get pregnant, and that is the time around ovulation,says Belfield. It's difficult to pinpoint exactly when ovulation happens but in most women, it happens around 10 to 16 days before the next period.It's not accurate to say that all women are fertile on day 14 of the menstrual cycle,says Belfield. This might be true for women who have a regular, 28-day cycle, but it won't apply to women whose cycles are shorter or longer.",
         "category": " info"
-    }
+    },
+    {
+        "title":"Massaging with essential oils",
+        "content": "Massage therapy for about 20 minutes can help reduce menstrual pain.  looked at 23 women with period pain caused by endometriosis. The researchers found that massages significantly reduced pain immediately and afterward. Massage therapy for menstruation involves pressing specific points while the therapist’s hands move around your abdomen, side, and back. Adding essential oils for an aromatherapy style of massage may have additional benefits. A 2012 study divided 48 women experiencing menstrual pain into two groups: One group received a cream containing essential oils, while the other received a cream containing a synthetic fragrance. The group who used essential oils experienced a significant reduction in amount and duration of pain. The researchers used a blend of lavender, clary sage, and marjoram oil in this study. You can buy a scented massage oil with similar ingredients or make your own. You should always dilute your essential oil with a carrier oil. Examples include vegetable or nut oils such as grapeseed or sweet almond oil. A safe concentration is one drop of essential oil per teaspoon of carrier oil.",
+        "category": "recipe"
+    
+    },
+    {
+        "title":"Fenugreek Seeds",
+        "content": "Fenugreek seeds are known to facilitate weight loss, is good for your liver, kidneys and metabolism. Turns out, that they could be a good companion during your period too.  Dr. Ashutosh Gautam, Clinical Operations and Coordination Manager at Baidyanath says, “You can reduce period pain with the help of fenugreek seeds. All you need to do is soak it in water for 12 hours, and then drink up.",
+        "category": "recipe"
+    },
+    {
+        "title":" Heat",
+        "content": "Applying heat on the lower abdomen helps relax the contracting muscles in the uterus, says Dr. Manoj K. Ahuja, Fortis Hospital. A hot water bottle always does the trick for me, but you can use over-the-counter heating pads or patches for comfort as well. Dr. Ritika Samaddar, Max Super Speciality Hospital says, “Sipping on warm fluids or taking a hot shower also helps to relieve pain and make you feel more relaxed.",
+        "category": "recipe"
+    },
+    {
+        "title":"Ginger and Black Pepper Tea",
+        "content": "Dr. Malini Sharma, Ayurveda Expert says “Make herbal tea using dried ginger and black pepper. Add a little sugar for taste, but avoid milk. Ginger can effectively reduce period pain, as it plays a key role in lowering the levels of prostaglandins. As an added bonus, it also helps make irregular periods regular and fights fatigue associated with premenstrual syndrome.",
+        "category": "recipe"
+    },
+    {
+        "title":"Cumin Seeds",
+        "content": "You can make a herbal tea out of cumin seeds to reduce period pain, suggests Dr. Ashutosh Gautam, Baidyanath. Cumin has a relaxing effect, and its anti-spasmodic and anti-inflammatory properties are useful for for getting rid of menstrual cramps.",
+        "category": "recipe"
+    },
+    {
+        "title":" Chamomile Tea",
+        "content": "Listen to the latest songs, only on JioSaavn.com According to a study published in the Journal of Agriculture and Chemistry, Chamomile tea has pain-relieving properties. It helps relax the uterus and decrease the production of prostaglandins, thus reducing period pain. ",
+        "category": "recipe"
+    },
+
 ];
 
 
@@ -63,7 +96,7 @@ const BlogListPage= ()=>{
                     <li className="circle" id="pain" onClick={(e)=>handleOnClick(e)}>Pain</li>
                     <li className="circle" id="info" onClick={(e)=>handleOnClick(e)}>Info</li>
                     <li className="circle" id="advices" onClick={(e)=>handleOnClick(e)}>Advices</li>
-                    <li className="circle" id="title" onClick={(e)=>handleOnClick(e)}>Title</li>
+                    <li className="circle" id="recipe" onClick={(e)=>handleOnClick(e)}>Recipe</li>
                 </ul>
             </div>
             {data.filter((article)=>(selectedTheme === article.category)).map(article => <FilteredBlog articles={article}/>)}
