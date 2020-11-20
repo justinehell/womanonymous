@@ -80,7 +80,7 @@ const data = [
     content:
       "Listen to the latest songs, only on JioSaavn.com According to a study published in the Journal of Agriculture and Chemistry, Chamomile tea has pain-relieving properties. It helps relax the uterus and decrease the production of prostaglandins, thus reducing period pain. ",
     category: "recipe",
-  },
+  }
 ];
 
 const BlogListPage = () => {
@@ -90,7 +90,7 @@ const BlogListPage = () => {
     setSelectedTheme(e.target.id);
   }
 
-  return (
+ return (
     <div>
       <div id="blog-list">
         <ul>
@@ -117,3 +117,4 @@ const BlogListPage = () => {
   );
 };
 export default BlogListPage;
+
