@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
+import logo from "../img/logo-outline.png";
 
 function Burger(props) {
   const handleLogOut = () => {
@@ -22,7 +23,9 @@ function Burger(props) {
           <div></div>
         </div>
         <div>
-          <h1>Baby Stop</h1>
+          <Link to="/" title="home" alt="home">
+            <img src={logo} height="50px" />
+          </Link>
         </div>
       </div>
       <div id="menu" className={props.isHidden ? "" : "hidden"}>
