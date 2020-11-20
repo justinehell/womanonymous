@@ -3,10 +3,14 @@ import React from 'react';
 import './boutonregle.css';
 import { GiBigWave } from 'react-icons/gi';
 
-const BoutonRegle = () => {
+const BoutonRegle = (props) => {
+	function changeDay(event) {
+		event.preventDefault();
+        props.onChange();
+    }
 	return (
 		<div class='buttons'>
-			<button class='blob-btn'>
+			<button class='blob-btn' onClick={changeDay}>
 				<GiBigWave alt='vague' />
 				{'  '}La Marée Rouge {'  '}
 				<GiBigWave alt='vague' />
