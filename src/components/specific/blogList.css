@@ -46,3 +46,12 @@
   font-size: 17px;
   font-family: "Rokkitt", Arial, Helvetica, sans-serif;
 }
+
+.image-blog {
+  width: 100%;
+}
+.image-blog img {
+  width: 100%;
+  filter:sepia(1);
+  border-radius: 5px;
+}
