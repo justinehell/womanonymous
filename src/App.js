@@ -25,14 +25,14 @@ function App() {
           <div
             id="overlay"
             className={isHidden ? "overlay" : ""}
-            onClick={isHidden ? handleHidden : ""}
+            onClick={isHidden ? handleHidden : null}
           >
             <Layout />
           </div>
         </>
       ) : (
-          <Login setIsLoggedIn={setIsLoggedIn} />
-        )}
+        <Login setIsLoggedIn={setIsLoggedIn} />
+      )}
     </div>
   );
 }
