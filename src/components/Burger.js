@@ -27,12 +27,12 @@ function Burger(props) {
       </div>
       <div id="menu" className={props.isHidden ? "" : "hidden"}>
         <ul className="menu-list">
-          <li onClick={props.isHidden ? props.handleHidden : ""}>
+          <li onClick={props.isHidden ? props.handleHidden : null}>
             <Link to="/" title="cycle">
               Home
             </Link>
           </li>
-          <li onClick={props.isHidden ? props.handleHidden : ""}>
+          <li onClick={props.isHidden ? props.handleHidden : null}>
             <Link to="/blog" title="infos">
               Blog
             </Link>
