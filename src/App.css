@@ -40,6 +40,7 @@ main.Main,
 .login-container {
   background-image: url(https://cdn.hipwallpaper.com/i/36/71/py05XD.jpg);
   background-size: cover;
+  min-height: 80vh;
 }
 
 main {
@@ -65,6 +66,8 @@ main {
 li {
   list-style: none;
   margin: 30px;
+  width: 100%;
+  text-align: center;
 }
 a {
   text-decoration: none;
@@ -79,61 +82,60 @@ a {
 }
 
 /* burger */
-.display-header{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 80px;
-    background-color: black;
+.display-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80px;
+  background-color: black;
 }
 
 .display-header h1 {
-    color: white;
-    text-align:center;
-    width: 70vw;
+  color: white;
+  text-align: center;
+  width: 70vw;
 }
 
 #burger {
-    width: 50px;
-    height: 50px;
-    margin-right: 50px;
-    padding: 10px 0 0 10px;
-    align-self: center;
-    z-index: 1;
-  }
+  width: 50px;
+  height: 50px;
+  margin-right: 50px;
+  padding: 10px 0 0 10px;
+  align-self: center;
+  z-index: 1;
+}
 #burger div {
-    width: 50px;
-    height: 5px;
-    margin: 0 0 5px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
-    -webkit-background-clip: padding-box;
-    background: white;
-  }
-
-  #menu {
-      position: absolute;
-      z-index: 1;
-      background-color: black;
-      top:0;
-      width: 100vw;
-      height: 300px;
-      box-shadow: 0 2px 20px gray;
-  }
-
-  .menu-list{
-      display:flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 0;
-  }
-   
-  .menu-list li a{
-    font-size: 24px;
-    color: white;
+  width: 50px;
+  height: 5px;
+  margin: 0 0 5px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-background-clip: padding-box;
+  background: white;
 }
 
+#menu {
+  position: absolute;
+  z-index: 1;
+  background-color: black;
+  top: 0;
+  width: 100vw;
+  height: 300px;
+  box-shadow: 0 2px 20px gray;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.menu-list li a {
+  font-size: 24px;
+  color: white;
+}
 
 /* body */
 
@@ -206,10 +208,9 @@ form input:last-child {
   position: absolute;
 }
 
-.footer{
-    display:flex;
-    flex-direction: column;
-
+.footer {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-text {
