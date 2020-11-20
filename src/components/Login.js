@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import baroque from "./../img/baroque.png";
-import baroquefooter from "./../img/baroquefooter.png";
 import "../App.css";
 
 export default function Login({ setIsLoggedIn }) {
