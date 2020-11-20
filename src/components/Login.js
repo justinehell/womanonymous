@@ -31,6 +31,7 @@ export default function Login({ setIsLoggedIn }) {
           placeholder="Enter your name"
           value={name}
           onChange={handleChangeName}
+          autoFocus
           required
         />
         <input
