@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../App.css";
+import Logo from "../img/logo-couleur.png";
 
 export default function Login({ setIsLoggedIn }) {
   const [name, setName] = useState("");
@@ -22,13 +23,15 @@ export default function Login({ setIsLoggedIn }) {
 
   return (
     <div className="login-container">
-      <h1>Baby Stop</h1>
+      <img src={Logo} width="40%" style={{ marginBottom: "20px" }} />
+
       <form onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder="Enter your name"
           value={name}
           onChange={handleChangeName}
+          autoFocus
           required
         />
         <input
