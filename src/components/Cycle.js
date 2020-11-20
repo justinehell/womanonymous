@@ -4,12 +4,12 @@ import BoutonRegle from './BoutonRegle';
 import InnerCycle from './InnerCycle';
 
 const Cycle = () => {
-	const [dayOfCycle, setDay] = useState(4);
+	const [dayOfCycle, setDay] = useState(26);
 
 	function changeDay() {
-		 setDay(0);
-	  }
-	
+		setDay(0);
+	}
+
 	const data = {
 		labels: [
 			"Don't fuck me now",
