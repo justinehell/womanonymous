@@ -40,11 +40,11 @@ main.Main,
 .login-container {
   background-image: url(https://cdn.hipwallpaper.com/i/36/71/py05XD.jpg);
   background-size: cover;
-  min-height: 80vh;
+  min-height: 91vh;
 }
 
 main {
-    padding-top: 80px;
+  padding-top: 80px;
 }
 /* Cycle */
 .main-cycle {
