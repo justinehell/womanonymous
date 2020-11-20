@@ -26,8 +26,6 @@ export default function Login({ setIsLoggedIn }) {
       <form onSubmit={handleSubmit}>
         <input
           type="text"
-          name=""
-          id=""
           placeholder="Enter your name"
           value={name}
           onChange={handleChangeName}
@@ -35,8 +33,6 @@ export default function Login({ setIsLoggedIn }) {
         />
         <input
           type="password"
-          name=""
-          id=""
           placeholder="Enter your password"
           value={password}
           onChange={handleChangePassword}

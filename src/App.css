@@ -10,6 +10,7 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Rochester&family=Rokkitt&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Economica&display=swap');
 
 body {
   margin: 0;
@@ -26,7 +27,7 @@ code {
 }
 
 body {
-  font-family: "Rokkit";
+  font-family: "economica", "Rokkit", Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -211,6 +212,7 @@ form input:last-child {
 .footer {
   display: flex;
   flex-direction: column;
+
 }
 
 .footer-text {
@@ -219,4 +221,5 @@ form input:last-child {
   background: #000000;
   color: #ffffff;
   font-size: 24px;
+  padding:15px;
 }
