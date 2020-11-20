@@ -21,9 +21,19 @@ export default function Login({ setIsLoggedIn }) {
     setPassword(e.target.value);
   };
 
+  const buttonStyle = {
+    background: "indianred",
+    color: "white",
+  };
+
   return (
     <div className="login-container">
-      <img src={Logo} width="40%" style={{ marginBottom: "20px" }} />
+      <img
+        src={Logo}
+        width="40%"
+        style={{ marginBottom: "20px" }}
+        alt="this is an alternative text"
+      />
 
       <form onSubmit={handleSubmit}>
         <input
@@ -41,7 +51,11 @@ export default function Login({ setIsLoggedIn }) {
           onChange={handleChangePassword}
           required
         />
-        <input type="submit" value="Enter" />
+        <input
+          type="submit"
+          value="Enter"
+          style={password !== "" ? buttonStyle : null}
+        />
       </form>
     </div>
   );

@@ -16,35 +16,33 @@
   margin-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
-  font-family: 'economica', Arial, Helvetica, sans-serif;
+  font-family: "economica", Arial, Helvetica, sans-serif;
   font-weight: bold;
   list-style-type: none;
   text-align: center;
   line-height: 120px;
   font-size: 30px;
-  background-color: gold;
+  background-color: indianred;
 }
-
 
 /*______________filtered blog __________________*/
 #filtered-blog {
-  border: 1px solid gold;
   border-radius: 10px;
   margin: 20px 20px 0 20px;
   padding: 10px;
   color: #fff;
 }
 #filtered-blog h3 {
-  font-size: 25px;
-  color: gold;
+  font-size: 28px;
+  color: indianred;
   text-align: center;
-  margin-bottom: 10px;
-  font-family: 'economica', Arial, Helvetica, sans-serif;
-
+  margin-bottom: 15px;
+  font-family: "economica", Arial, Helvetica, sans-serif;
+  font-weight: 600;
 }
 
 #filtered-blog p {
   text-align: justify;
   font-size: 17px;
-  font-family: 'Rokkitt', Arial, Helvetica, sans-serif;
+  font-family: "Rokkitt", Arial, Helvetica, sans-serif;
 }
