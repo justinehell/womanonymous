@@ -41,6 +41,10 @@ main.Main,
   background-image: url(https://cdn.hipwallpaper.com/i/36/71/py05XD.jpg);
   background-size: cover;
 }
+
+main {
+    padding-top: 80px;
+}
 /* Cycle */
 .main-cycle {
   text-align: center;
@@ -69,6 +73,9 @@ a {
 
 .header-layout {
   background-color: black;
+  position: absolute;
+  width: 100%;
+  top: 0;
 }
 
 /* burger */
